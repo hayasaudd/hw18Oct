@@ -21,10 +21,16 @@ fun main() {
    println(numberslist)
    numberslist[2]=12//ubdate 3th element to number 12
    println(numberslist)
-  var check = numberslist.indexOf(12)//check the 12 element in list or not
+ /* var check = numberslist.indexOf(12)//check the 12 element in list or not
    println("the element 12 in index: ")
    println(check)
-   numberslist.removeAt(check)//delete element 12
+   numberslist.removeAt(12)//delete element 12*/
+
+    var check =numberslist.contains(12)//another way to check the 12 element in list or not then delete it
+    println("the element 12 in index: ")
+    println(check)
+
+   numberslist.removeAt(12)//delete element 12
    println(numberslist)// print the list
 
 //option exercise1===================================

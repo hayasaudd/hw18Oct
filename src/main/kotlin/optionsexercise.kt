@@ -1,4 +1,4 @@
-fun main() {
+/*fun main() {
     var tennum = mutableListOf(1, 2, 3, 4, 5,11,7,8,9,10,6)
   var bigist = Int-> Int
 
@@ -10,4 +10,4 @@ fun main() {
             println(bigist)
     }
   println(bigist)
-}
+}*/
